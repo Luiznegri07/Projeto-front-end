@@ -17,6 +17,10 @@
     background-color: black;
     justify-content: center;
     gap: 150px;
+    background-image: url(menu.png);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: repeat;
 }
 
 
@@ -25,11 +29,10 @@ a[href="#"]{
 }
 
 header, footer{
-    padding: 20px 0;
+    padding: 40px 0;
     margin:0;
     border-bottom: 100px;
     border: 2.5px solid greenyellow;
-    background-color: black;
     color: whitesmoke;
     background-image: url(WhatsApp\ Image\ 2026-02-10\ at\ 16.05.32.jpeg);
     background-size: cover ;
@@ -42,10 +45,12 @@ header, footer{
     gap: 50px;
 }
 main{
-    background-color: black;
     color: whitesmoke;
     gap: 70px;
     padding: 50px 20px;
+    background-image: url(back\ ground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .game-card{
