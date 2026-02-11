@@ -7,13 +7,72 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
-header{
-    padding: 50px;
-    margin:0;
-    border: 5px solid greenyellow;
-    border-radius: 10px;
+.menu{
+    border: 2.5px solid #adff2f;
+    padding:25px;
+    border-top: 10px;
+    display: flex;
+    flex-direction:row;
+    gap:30px;
     background-color: black;
-    color: whitesmoke;
+    justify-content: center;
+    gap: 150px;
 }
 
 
+a[href="#"]{
+    color: greenyellow;
+}
+
+header, footer{
+    padding: 20px 0;
+    margin:0;
+    border-bottom: 100px;
+    border: 2.5px solid greenyellow;
+    background-color: black;
+    color: whitesmoke;
+    background-image: url(WhatsApp\ Image\ 2026-02-10\ at\ 16.05.32.jpeg);
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+main{
+    background-color: black;
+    color: whitesmoke;
+    gap: 70px;
+    padding: 50px 20px;
+}
+
+.game-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-items: flex-start;
+    padding: 50px;
+}
+
+.game-card img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 500px;
+    image-rendering: optimizeQuality;
+    border: #adff2f solid 2px;
+    border-radius: 15px;
+}
+
+.game-card p{
+    border: #adff2f 2px solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.game-card summary{
+    color: #adff2f;
+}
