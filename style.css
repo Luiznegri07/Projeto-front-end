@@ -159,6 +159,7 @@ main{
     gap: 20px;
 }
 
+
 details[open] .game-card img {
     border: 2px solid transparent;
     box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
@@ -185,7 +186,7 @@ details[open] .game-card img {
     padding: 10px 45px;
     align-items: start; 
 }
-/*texto do card */
+/*texto do card*/
 summary {
     list-style: none;
     cursor: pointer;
@@ -221,7 +222,7 @@ summary:hover h2 {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
-/* botao-twitch */
+/*botao-twitch*/
 
 .btn-twitch {
     display: flex; 
@@ -254,7 +255,7 @@ summary:hover h2 {
     box-shadow: 0 6px 15px rgba(145, 70, 255, 0.4);
 }
 
-/* Pé do site */
+/*Pé do site*/
 
 .footer {
     background: rgba(0, 0, 0, 0.9);
