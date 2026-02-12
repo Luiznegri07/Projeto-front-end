@@ -329,3 +329,59 @@ section{
    max-width: 1200px;
    margin: 0 auto;
 }
+
+/*animação-intro*/
+.intro-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 0.5s ease 2.5s forwards;
+  }
+ 
+  .circle {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.9);
+    border-top: 5px solid #00ff00;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    animation: spin 1s linear infinite;
+  }
+  
+  .loader-box {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+  
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { 
+        opacity: 0; 
+        visibility: hidden; 
+    }
+  }
+  .content {
+    padding: 50px;
+    text-align: center;
+    animation: fadeInContent 1s ease 3s backwards;
+  }
+
+  @keyframes fadeInContent {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
