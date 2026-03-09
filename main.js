@@ -25,8 +25,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 //aviso de torneio ativo
-const tournamentDates = {
-    "LoL": { name: "Worlds", month: 2 }, 
+const tournamentDates = { 
     "Counter-Strike 2": { name: "ESL PRO", month: 2 },  
     "Valorant": { name: "Masters Santiago", month: 2 }
 };
@@ -43,11 +42,9 @@ function checkEvents() {
             const badge = document.createElement('span');
             badge.className = 'event-badge';
             badge.innerText = ` ✦ Mês de ${event.name}!`;
-            badge.style.color = "#ff4655";
+            badge.style.color = "#d1b32b";
             badge.style.fontWeight = "bold";
             detail.querySelector('summary').appendChild(badge);
         }
     });
 }
-
-checkEvents();
